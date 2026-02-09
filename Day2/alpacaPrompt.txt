@@ -1,0 +1,10 @@
+Alpaca prompting means formatting your prompt into clear sections so the LLM understands:
+
+### Instruction:
+<Describe the task clearly>
+
+### Input:
+<Provide the input (optional)>
+
+### Response:
+<The model should generate the answer here>

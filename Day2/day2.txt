@@ -1,0 +1,130 @@
+What is Prompting?
+
+Prompting is the way we give instructions, questions, or context to an AI so it can understand what to do and how to respond.
+
+In simple words:
+👉 Prompting = talking to AI in a structured and clear way.
+
+The better the prompt, the better the output.
+
+Types of Prompting
+1. Zero-Shot Prompting
+
+Definition:
+In Zero-Shot Prompting, you ask a question without giving any examples.
+The AI answers based only on its existing knowledge.
+
+Example:
+
+Prompt:
+
+Explain what ReactJS is.
+
+Output:
+
+ReactJS is a JavaScript library used to build user interfaces, especially single-page applications.
+
+👉 No examples provided, straight question → straight answer.
+
+2. One-Shot Prompting
+
+Definition:
+In One-Shot Prompting, you give one example so the AI understands the pattern and follows it.
+
+Example:
+
+Prompt:
+
+Example:
+Input: 2 + 2
+Output: The answer for the given question is 4
+
+Now solve this:
+Input: 1 + 1
+
+Output:
+
+The answer for the given question is 2
+
+👉 One example is enough for the AI to learn the response style.
+
+3. Few-Shot Prompting
+
+Definition:
+In Few-Shot Prompting, you give multiple examples to clearly guide the AI on format, logic, and tone.
+
+Example:
+
+Prompt:
+
+Example 1:
+Input: 12 ÷ 2
+Output: The answer for the given question is 6
+
+Example 2:
+Input: 12 − 2
+Output: The answer for the given question is 10
+
+Now solve this:
+Input: 22 + 11
+
+Output:
+
+The answer for the given question is 33
+
+👉 More examples = more control over output.
+
+4. Chain-of-Thought Prompting
+
+Definition:
+Chain-of-Thought Prompting encourages the AI to think step-by-step before giving the final answer.
+
+This improves reasoning for:
+
+Math problems
+
+Logic problems
+
+Multi-step decisions
+
+Example:
+
+Prompt:
+
+Solve the problem step by step:
+What is (10 + 5) × 2?
+
+Output:
+
+Step 1: Add 10 and 5 → 15
+Step 2: Multiply 15 by 2 → 30
+Final Answer: 30
+
+👉 The AI explains how it reached the answer.
+
+5. Persona-Based Prompting
+
+Definition:
+Persona-Based Prompting tells the AI who it should act like while responding.
+
+You define:
+
+Role
+
+Tone
+
+Expertise
+
+Audience
+
+Example 1: Developer Persona
+
+Prompt:
+
+Act as a Senior Frontend Developer.
+Explain ReactJS to a beginner using simple language and examples.
+
+Output:
+
+ReactJS is a JavaScript library used to build user interfaces.
+It helps developers create reusable UI components and efficiently update the screen when data changes.
