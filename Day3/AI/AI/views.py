@@ -10,7 +10,6 @@ def chat(request):
     )
     if request.method == 'POST':
         bodyMessage = json.loads(request.body)
-        print(bodyMessage)
         message_content = bodyMessage.get('message') 
         stream = client.chat(
             model="gemma3:270m",
